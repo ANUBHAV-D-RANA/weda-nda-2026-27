@@ -56,3 +56,11 @@ changes, update all of these:
 5. The facts strip (5 cells)
 6. The fee card
 7. The schedule timeline (4 rows)
+
+## Live URL
+
+https://anubhav-d-rana.github.io/weda-nda-2026-27/
+
+If the site later moves to Vercel or a custom domain, update the absolute URLs
+in `index.html` (canonical, `og:url`, `og:image`, `twitter:image`, and the
+JSON-LD block), plus `robots.txt` and `sitemap.xml`.
