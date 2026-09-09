@@ -358,3 +358,10 @@ footer{background:var(--ink);color:#CFD2C8;padding:48px 0 96px}
   padding:2px 9px;margin-left:6px;vertical-align:1px;
   transition:background .15s ease,color .15s ease;
 }
+
+/* ---------- footer contact links: 44px minimum tap target ---------- */
+.foot a[href^="tel"],
+.foot a[href^="https://wa.me"],
+.foot a[href*="google.com/maps"]{
+  display:inline-block;padding:9px 0;min-height:44px;
+}
