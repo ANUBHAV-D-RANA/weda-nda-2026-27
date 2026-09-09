@@ -59,7 +59,7 @@ changes, update all of these:
 
 ## Live URL
 
-https://anubhav-d-rana.github.io/weda-nda-2026-27/
+https://weda-nda-2026-27.vercel.app/
 
 If the site later moves to Vercel or a custom domain, update the absolute URLs
 in `index.html` (canonical, `og:url`, `og:image`, `twitter:image`, and the
