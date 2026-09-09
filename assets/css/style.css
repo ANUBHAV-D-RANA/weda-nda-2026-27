@@ -10,7 +10,7 @@
   --paper-2:#EFEBE0;
   --white:#FFFFFF;
   --line:#D8D2C2;
-  --wa:#1FA855;
+  --wa:#157A3D;
   --maxw:1180px;
 }
 *{margin:0;padding:0;box-sizing:border-box}
@@ -39,8 +39,8 @@ img{max-width:100%;display:block;height:auto}
   cursor:pointer;
 }
 .btn:hover{transform:translateY(-2px)}
-.btn-wa{background:var(--wa);color:#fff;box-shadow:0 6px 0 #14713a}
-.btn-wa:hover{background:#22b95e}
+.btn-wa{background:var(--wa);color:#fff;box-shadow:0 6px 0 #0D4F26}
+.btn-wa:hover{background:#116933}
 .btn-call{background:var(--brass);color:#241a05;box-shadow:0 6px 0 #8d6415}
 .btn-call:hover{background:var(--brass-lt)}
 .btn-out{background:transparent;color:var(--paper);border-color:rgba(247,245,239,.5)}
@@ -345,4 +345,16 @@ footer{background:var(--ink);color:#CFD2C8;padding:48px 0 96px}
   .hero,.facts,.feats,.mentor,footer{background:#fff!important;color:#000!important}
   .hero h1,.hero .lede,.fact dd,.feat span,.mentor h2,.mentor p{color:#000!important}
   a[href^="tel"]::after,a[href^="https://wa.me"]::after{content:" (" attr(href) ")";font-size:9pt}
+}
+
+/* ---------- address / directions links ---------- */
+.addr a.addr-link{color:inherit;text-decoration:none}
+.addr a.addr-link:hover .dir{background:var(--brass);color:#241a05}
+.addr .dir{
+  display:inline-block;white-space:nowrap;
+  font-family:'Oswald',sans-serif;font-weight:600;font-size:.78rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--brass-lt);
+  border:1px solid rgba(200,145,42,.6);border-radius:3px;
+  padding:2px 9px;margin-left:6px;vertical-align:1px;
+  transition:background .15s ease,color .15s ease;
 }
